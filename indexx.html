@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilito.css"/>
+    <title>Mi primera web</title>
+    <script src="https://kit.fontawesome.com/b67135b798.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="container">
+        <header id="encabezado">
+            
+            <a><i class="fa-solid fa-otter"></i></a>
+            <nav>
+
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                  <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul>
+                    
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de mi</a></li>
+                    <li><a href="#">Pasatiempos</a></li>
+                    <li><a href="#">Paginas utilizadas</a></li>
+                    <li><a href="../mi_primera_web/Formulario/Formulario.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion_principal">
+            <section class="seccion1">
+                <div class="acerca-de">
+                    <h2>Acerca de mi</h2>
+                    <p class="parrafo1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                    <p class="parrafo2">Mi nombre es Brenda,tengo 19 años y soy de Buenos Aires.  Me gustan las cosas dulces y jugar con mi mascota quien se puede ver detras de la foto, aun estoy haciendo el cbc para ingenieria en informatica.</p>
+                </div>
+                <div id=imagen> <img src="img/454661853_1052870633307981_8060489469071215535_n.jpg" alt="imagen personal"></div>
+            </section>
+
+            <section class="seccion2">
+                <div>
+                    <img src="img/j49FFp0i_400x400.jpg" alt="imagen Togepi">
+                </div>
+            </section>
+
+            <h4>Pasatiempos</h4>
+
+            <div class="card-container">
+
+                <div class="card">
+                    <h3>Drawings</h3>
+                    <img src="img/73jl.gif" alt="jigglypuffDibujante">
+                    <p>En mis ratos libres me gusta dibujar y pintar con colores, ya sea cosas de la naturaleza o personajes,no aseguro que sean bonitos</p>
+                </div>
+
+                <div class="card">
+                    <h3>Games</h3>
+                    <img src="img/939f41035cb9095437fe0c0f1341df79.gif" alt="jigglypuffTriste">
+                    <p>Brawl stars me consume la vida y ahora anda queriendo consumir mi dinero ¿bueno o malo? tambien juego un juego de monos que explotan globos, tu paciencia tambien</p>
+                </div>
+
+                <div class="card">
+                    <h3>Movies</h3>
+                    <img src="img/Mwlq.gif" alt="jigglypuffEnojado">
+                    <p>Me comi 3 pelicula de Godzilla y nunca salio mothra,nunca me habia sentido tan estafada</p>
+                </div>
+            </div>
+    
+        </main>
+
+        <button id="btn-generar">Te recomiendo</button>
+        <footer id="footer">
+            <p id="frase"></p>
+        </footer>
+       
+        <footer>
+            <h3>Recursos utilizados</h3>
+            <nav>
+                <ol>
+                    <li><a href="https://fontawesome.com/icons/heart?f=classic&s=solid">Fontawesome</a></li>
+                    <li><a href="https://unsplash.com/es/fotos/una-mesa-cubierta-con-platos-llenos-de-postres-mabzqw_siC0">Unsplash</a></li>
+                </ol>
+            </nav>
+        </footer>
+      
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
